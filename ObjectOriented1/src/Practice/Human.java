@@ -1,6 +1,6 @@
 package Practice;
 
-public class Human implements Skeleton {
+public class Human implements Skeleton,IQ {
 
 	@Override
 	public void brain() {

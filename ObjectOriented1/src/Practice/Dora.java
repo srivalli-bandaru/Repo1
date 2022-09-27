@@ -1,6 +1,6 @@
 package Practice;
 
-public class Dora implements Skeleton{
+public class Dora implements Skeleton,IQ{
 
 	@Override
 	public void brain() {

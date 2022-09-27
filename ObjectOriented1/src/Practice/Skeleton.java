@@ -1,6 +1,6 @@
 package Practice;
 
-public interface Skeleton {
+public interface Skeleton  {
 void brain();
 void flesh();
 void color();
