@@ -1,5 +1,7 @@
 package OOps2;
 
-public class Animal {
+public abstract class Animal {
+	abstract String name();
+	abstract String colour();
 
 }
