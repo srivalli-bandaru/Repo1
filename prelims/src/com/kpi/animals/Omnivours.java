@@ -1,5 +1,8 @@
 package com.kpi.animals;
 
-public class Omnivours {
 
+//
+public class Omnivours extends Animal{
+//i am omnivours
 }
+//
