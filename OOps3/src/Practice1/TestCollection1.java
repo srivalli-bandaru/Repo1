@@ -1,7 +1,9 @@
 package Practice1;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -22,19 +24,21 @@ public class TestCollection1 {
 		list.add("d");
 		list.add("d");
 		list.add("d");
-		
+		Set<String> set=new HashSet<String>();
+		Set set2=new HashSet();
+		set.add("a");
+		set.add("a");
+		set2.add(1);
+		System.out.println(set);
 		System.out.println(list);
-		Set set=new HashSet();
-		set.add(1);
-		set.add(2);
-		set.add(2);
-		set.add(3);
-		set.add(3);
-		set.add(3);
-		set.add(4);
-		set.add(4);
-		set.add(4);
-		set.add(4);
-	}	
-	
+		Map<String, Integer> hm
+		= new HashMap<String, Integer>();
+		hm.put("a",  100);
+		hm.put("b",  200);
+		hm.put("c",  300);
+		hm.put("d",  400);
+		hm.put("e",  100);
+		
+		System.out.println(hm);
+}
 }
